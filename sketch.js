@@ -45,13 +45,14 @@ function draw() {
   background(46,139,87)
 
   dog.addImage(dogimg);
-  drawSprites();
+  
   textSize(15);
   fill("black")
   text("foodStock:" + foodS, 200,200)
   //add styles here
   
   foodObj.display();
+  drawSprites();
 }
 
 function readStock(data){
